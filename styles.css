@@ -6,6 +6,10 @@ body{
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
 }
+.titleHome{
+  color:white; 
+  padding-top: 15%;
+}
 .textMe{
   padding-top: 1rem; 
   font-family: 'Open Sans', sans-serif;
@@ -95,7 +99,7 @@ html{
   align-items: center;
 }
 .icons{
-  width: 300px; 
+  width: 200px; 
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
@@ -199,5 +203,22 @@ html{
   }
   .contenedor{
     height: 100%;
+  }
+  .titleHome{
+    padding-top: 40%;
+  }
+  .proyect{
+    width: 150px;
+    height: 150px;
+  }
+  .proyectContent{
+    width: 339px; 
+  }
+  .me{
+    width: 100%;
+  }
+  .skillsContent{
+    width: 100%;
+    margin-top: 2rem;
   }
 }
