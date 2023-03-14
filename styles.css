@@ -109,6 +109,7 @@ html{
   height: 10px; 
   border-color: #00ABB3; 
   margin: 0 10%;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 .fadeTop {
@@ -142,6 +143,12 @@ html{
   border-radius: 1rem;
   background-color: #00ABB3;
   color: white;
+}
+.download{
+  background-color: #00ABB3;
+  border-radius: 1rem;
+  width: 150px;
+  height: 40px;
 }
 .apearAnimation {
   /*animation time for different browsers*/
