@@ -19,7 +19,7 @@ body{
   background-color: #EAEAEA;
 }
 .banner{
-  background-image: url(Fondo.jpg);
+  background-image: url(assets/Fondo.jpg);
   width: 100%;
   height: 630px;
 }
@@ -150,6 +150,16 @@ html{
   width: 150px;
   height: 40px;
 }
+.download:hover{
+  background-color: #3FC1C9; 
+}
+.textDownload{
+  margin: auto 0; 
+  color: white;
+}
+.marginLanguage{
+  margin-left: 580px;
+}
 .apearAnimation {
   /*animation time for different browsers*/
   -webkit-animation: fadein 4s;
@@ -230,5 +240,9 @@ html{
   }
   .banner{
     height: 800px;
+  }
+  .marginLanguage{
+    margin-left: 0;
+    margin-top: 20px;
   }
 }

@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link rel="icon" href="assets/portfolio.png">
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,23 +22,23 @@
         <div class="collapse navbar-collapse margin" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link navTitle active" aria-current="#home" href="#home">Inicio</a>
+              <a class="home nav-link navTitle active" href="#home">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navTitle" href="#mi">Acerca de mi</a>
+              <a class="about nav-link navTitle" href="#mi">Acerca de mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navTitle" href="#proyects">Portfolio</a>
+              <a class="nav-link navTitle proyects" href="#proyects">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navTitle" href="#Contact">Contacto</a>
+              <a class="contact nav-link navTitle" href="#Contact">Contacto</a>
             </li>
-            <!-- <li class="nav-item" style="margin-left: 580px;">
-              <a class="nav-link navTitle active" href="#Contact">Español</a>
+            <li class="nav-item marginLanguage">
+              <p class="languageE nav-link navTitle active" style="margin-bottom: 0; cursor: pointer;">Español</p>
             </li>
             <li class="nav-item">
-              <a class="nav-link navTitle" href="#Contact">English</a>
-            </li> -->
+              <p class="languageI nav-link navTitle" style="margin-bottom: 0; cursor: pointer;">English</p>
+            </li>
           </ul>
         </div>
       </div>
@@ -49,17 +50,17 @@
     </div>
     <div class="contenedor" id="mi">
       <div style="width: 100%;" align="center">
-        <h2 class="fadeLeft scroll-content title" style="padding: 2rem 0;">Acerca de mi</h2>
+        <h2 class="fadeLeft scroll-content title about" style="padding: 2rem 0;">Acerca de mi</h2>
       </div>
       <div class="data">
         <div class="me apearAnimation" align="center">
-          <img src="Yo.jpg" alt="Yo" style="border-radius: 50%; width: 275px;">
-          <p class="textMe">Desarrollador web FrontEnd con experiencia tanto Freelance cómo en un equipo de desarrollo trabajando con Metodología Agile. Autodidacta. Capaz de autogestión eficaz y solución de problemas en proyectos independientes. Buenas habilidades de colaboración en un equipo productivo.
+          <img src="assets/Yo.jpg" alt="Yo" style="border-radius: 50%; width: 275px;">
+          <p class="textMe">Desarrollador Web FrontEnd con experiencia tanto Freelance cómo en un equipo de desarrollo trabajando con Metodología Agile. Autodidacta. Capaz de autogestión eficaz y solución de problemas en proyectos independientes. Buenas habilidades de colaboración en un equipo productivo.
           </p>
           <a href="assets/CV-MateoPascucci.pdf" download style="text-decoration: none;" target="_blank">
             <div class="align download">
               <img src="assets/download.png" alt="Descargar" style="height: 30px; width: 30px; margin: auto 8px;">
-              <p style="margin: auto 0; color: white;">Descargar CV</p>
+              <p class="textDownload">Descargar CV</p>
             </div>
           </a>
         </div>
@@ -119,30 +120,30 @@
     <hr class="line" id="proyects">
     <div class="contenedor">
       <div class="fadeLeft scroll-content" style="width: 100%;" align="center">
-        <h2 class="title" style="margin: 1rem 0;">Proyectos</h2>
+        <h2 class="title proyects" style="margin: 1rem 0;">Proyectos</h2>
       </div>
       <div>
         <div class="align proyectContent">
           <div class="proyect fadeTop scroll-content">
             <a href="https://complejoloscactus.com.ar/" target="_blank">
-              <img class="imgProyect" src="Cactus.jpg" alt="Complejo cabañas" style="width: 100%; height: 100%;">
+              <img class="imgProyect" src="assets/Cactus.jpg" alt="Complejo cabañas" style="width: 100%; height: 100%;">
             </a>
           </div>
           <div class="proyect fadeTop scroll-content">
             <a href="https://colorgameguess.netlify.app" target="_blank">
-              <img src="ColorGame.jpg" alt="Color game" style="width: 100%; height: 100%;">
+              <img src="assets/ColorGame.jpg" alt="Color game" style="width: 100%; height: 100%;">
             </a>
           </div>
         </div>
         <div class="align proyectContent">
           <div class="proyect fadeTop scroll-content">
             <a href="VideoPP.html" target="_blank">
-              <img src="PP.jpg" alt="Pasantia" style="width: 100%; height: 100%;">
+              <img src="assets/PP.jpg" alt="Pasantia" style="width: 100%; height: 100%;">
             </a>
           </div>
           <div class="proyect fadeTop scroll-content">
             <a href="https://inmo-agp.netlify.app" target="_blank">
-              <img src="Inmo.jpg" alt="Inmobiliaria" style="width: 100%; height: 100%;">
+              <img src="assets/Inmo.jpg" alt="Inmobiliaria" style="width: 100%; height: 100%;">
             </a>
           </div>
         </div>
@@ -152,17 +153,17 @@
       <div class="icons">
         <div class="contentIcon">
           <a href="https://www.instagram.com/matepascu/" target="_blank">
-            <img src="Ig.png" alt="Instagram">
+            <img src="assets/Ig.png" alt="Instagram">
           </a>
         </div>
         <div class="contentIcon">
           <a href="https://github.com/MatePascu" target="_blank">
-            <img src="GitHub.png" alt="GitHub">
+            <img src="assets/GitHub.png" alt="GitHub">
           </a>
         </div>
         <!-- <div class="contentIcon">
           <a href="" target="_blank">
-            <img src="Linkedin.png" alt="Linkedin">
+            <img src="assets/Linkedin.png" alt="Linkedin">
           </a>
         </div> -->
       </div>
